@@ -1,0 +1,27 @@
+header {
+  text-align: center;
+}
+
+.indentText {
+  text-indent: 40px;
+}
+
+.italicStyle {
+  font-style: italic;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.separate {
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
