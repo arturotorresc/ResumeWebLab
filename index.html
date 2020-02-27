@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|VT323&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Resume - Web Lab</title>
   </head>
   <body>
     <header>
       <h1>Jorge Arturo Torres Cruz</h1>
+      <h3 class="mobile-hidden">Mobile View</h3>
+      <h3 class="tablet-hidden">Tablet View</h3>
+      <h3 class="desktop-hidden">Desktop View</h3>
       <address>
         <nav>
-          <div><a href="https://tec.mx/es">Tecnológico de Monterrey</a></div>
+          <div>
+            <a target="blank" href="https://tec.mx/es"
+              >Tecnológico de Monterrey</a
+            >
+          </div>
           <div>
             <a href="false-link.html">arturotc22@gmail.com</a>
           </div>
@@ -17,72 +28,81 @@
       </address>
     </header>
     <main>
-      <section class="separate">
-        <h3>Objective</h3>
-        <p class="indentText">To complete my studies in Computer Science.</p>
-      </section>
-      <section class="separate">
-        <h3>Experience</h3>
-        <section>
-          <h4 class="indentText">Cívica Digital</h4>
-          <ul>
-            <li>
-              <span class="italicStyle">
-                February 2020 - Present | Software Engineer Intern
-              </span>
-            </li>
-            <li>
-              Responsibilities include working in the URBEM product using Ruby
-              on Rails and JavaScript.
-            </li>
-          </ul>
+      <section class="container">
+        <section class="separate desktop-left">
+          <h3>Objective</h3>
+          <p class="indentText">
+            To complete my studies in Computer Science.
+          </p>
         </section>
-        <section>
-          <h4 class="indentText">Google</h4>
-          <ul>
-            <li>
-              <span class="italicStyle">
-                Summer 2019 - Software Engineer Intern
-              </span>
-            </li>
-            <li>
-              Worked in the Ads team using primarily C++, along with other
-              propietary technologies.
-            </li>
-          </ul>
-        </section>
-      </section>
-      <section class="separate">
-        <h3>Education</h3>
-        <section>
-          <h4 class="indentText">Tecnológico de Monterrey</h4>
-          <ul>
-            <li>
-              <span class="italicStyle">
-                August 2016 - Present | Computer Science
-              </span>
-            </li>
-          </ul>
+        <section class="separate desktop-left">
+          <h3>Experience</h3>
+          <section>
+            <h4 class="indentText">Cívica Digital</h4>
+            <ul>
+              <li>
+                <span class="italicStyle">
+                  February 2020 - Present | Software Engineer Intern
+                </span>
+              </li>
+              <li>
+                Responsibilities include working in the URBEM product using Ruby
+                on Rails and JavaScript.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h4 class="indentText">Google</h4>
+            <ul>
+              <li>
+                <span class="italicStyle">
+                  Summer 2019 - Software Engineer Intern
+                </span>
+              </li>
+              <li>
+                Worked in the Ads team using primarily C++, along with other
+                propietary technologies.
+              </li>
+            </ul>
+          </section>
         </section>
       </section>
-      <section class="separate">
-        <h3>Interests</h3>
-        <section>
-          <ol class="italicStyle">
-            <li>Reading</li>
-            <li>Going out</li>
-            <li>Eating new things</li>
-            <li>Exercising</li>
-            <li>Programming</li>
-            <li>Technology</li>
-          </ol>
+      <section class="container">
+        <section class="separate desktop-right">
+          <h3>Education</h3>
+          <section>
+            <h4 class="indentText">Tecnológico de Monterrey</h4>
+            <ul>
+              <li>
+                <span class="italicStyle">
+                  August 2016 - Present | Computer Science
+                </span>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="separate desktop-right">
+          <h3>Interests</h3>
+          <section>
+            <ol class="italicStyle">
+              <li>Reading</li>
+              <li>Going out</li>
+              <li>Eating new things</li>
+              <li>Exercising</li>
+              <li>Programming</li>
+              <li>Technology</li>
+            </ol>
+          </section>
         </section>
       </section>
     </main>
-    <footer class="separate">
+    <footer class="separate-footer">
       Web Development - Laboratory 1
       <div>
-        <img alt="Lab picture" />
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2v9y0dukr6mq2.cloudfront.net%2Fvideo%2Fthumbnail%2FO3Egg9n%2Fhacker-s-computer-screen_sdrc1rwxg_thumbnail-full01.png&f=1&nofb=1"
+          alt="Lab picture"
+        />
       </div>
     </footer>
   </body>
